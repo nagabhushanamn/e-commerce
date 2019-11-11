@@ -1,0 +1,9 @@
+[
+    {
+        "customer": "<customer-id>",
+        "query": "",
+        "description": "",
+        "createdAt": "datetime",
+        "status": ""
+    }
+]

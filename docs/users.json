@@ -1,0 +1,30 @@
+[
+    {
+        "first-name": "Nagabhushanam",
+        "last-name": "N",
+        "email": "nagabhushanamn@gmail.com",
+        "mobile": "+91-9945674228",
+        "address": {
+            "street": "1st street",
+            "city": "chennai",
+            "country": "india",
+            "zip": ""
+        },
+        "createdAt": "",
+        "lastAccessAt": ""
+    },
+    {
+        "first-name": "user",
+        "last-name": "one",
+        "email": "userone@gmail.com",
+        "mobile": "+91-1234567890",
+        "address": {
+            "street": "1st street",
+            "city": "chennai",
+            "country": "india",
+            "zip": ""
+        },
+        "createdAt": "",
+        "lastAccessAt": ""
+    }
+]

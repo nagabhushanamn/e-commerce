@@ -1,0 +1,18 @@
+[
+    {
+        "stars": 0.0,
+        "body": "",
+        "createdAt": "datetime",
+        "modifiedAt": "datetime",
+        "author": "<user-id>",
+        "item": "<item-id>"
+    },
+    {
+        "stars": 0.0,
+        "body": "",
+        "createdAt": "datetime",
+        "modifiedAt": "datetime",
+        "author": "<user-id>",
+        "item": "<item-id>"
+    }
+]

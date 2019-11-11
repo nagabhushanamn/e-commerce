@@ -1,0 +1,107 @@
+
+---------------------------------------------------------
+user
+---------------------------------------------------------
+
+{
+    "first-name":"",
+    "last-name":"",
+    "email":"",
+    "mobile":"",
+    "address":{
+        "street:"",
+        "city":"",
+        "country":"",
+        "zip":""
+    },
+    createdAt:date,
+    lastAccessAt:datetime
+}
+
+---------------------------------------------------------
+category
+---------------------------------------------------------
+
+{
+    "name":""
+}
+
+---------------------------------------------------------
+item
+---------------------------------------------------------
+
+{
+    "category":<category-id>
+    "name":"",
+    "price":0.0,
+    "currency":"AED"
+    "qty":0
+    "isAvailable":boolean,
+    "images":[
+        {"full":"","thumb":""},
+        {"full":"","thumb":""}
+    ],
+    ingredients:{
+
+    }
+    hotel: {
+
+    }
+    description:"",,
+    "tags":[
+
+    ]
+}
+
+
+---------------------------------------------------------
+review
+---------------------------------------------------------
+
+{
+    stars:0.0,
+    body:"",
+    createdAt:datetime,
+    modifiedAt: datetime,
+    author:<user-id> 
+    item:<item-id>
+}
+
+---------------------------------------------------------
+order
+---------------------------------------------------------
+
+{
+    amount:0.0,
+    createdAt:datetime,
+    customer:<customer-id>    
+    status:"",
+    shipping:{
+
+    }
+    payment: {
+     method: "visa",
+     transaction_id: "2312213312XXXTD"
+   },
+   products:[
+       {qty:0,item:<item-id>}
+   ]
+}
+
+
+---------------------------------------------------------
+query
+---------------------------------------------------------
+
+{
+    "customer":<customer-id>",
+    "query":"",
+    "description":"",
+     createdAt:datetime,
+     status:""
+}
+
+
+
+
+

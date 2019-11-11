@@ -1,0 +1,46 @@
+[
+    {
+        "category": "<category-id>",
+        "name": "item-1",
+        "price": 0.0,
+        "currency": "AED",
+        "qty": 0,
+        "isAvailable": true,
+        "images": [
+            {
+                "full": "",
+                "thumb": ""
+            },
+            {
+                "full": "",
+                "thumb": ""
+            }
+        ],
+        "ingredients": {},
+        "hotel": {},
+        "description": "",
+        "tags": []
+    },
+    {
+        "category": "<category-id>",
+        "name": "item-2",
+        "price": 0.0,
+        "currency": "AED",
+        "qty": 0,
+        "isAvailable": true,
+        "images": [
+            {
+                "full": "",
+                "thumb": ""
+            },
+            {
+                "full": "",
+                "thumb": ""
+            }
+        ],
+        "ingredients": {},
+        "hotel": {},
+        "description": "",
+        "tags": []
+    }
+]

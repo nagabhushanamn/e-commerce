@@ -1,0 +1,25 @@
+[
+    {
+        "amount": 0.0,
+        "createdAt": "datetime",
+        "customer": "<customer-id>",
+        "status": "",
+        "shipping": {
+            
+        },
+        "payment": {
+            "method": "visa",
+            "transaction_id": "2312213312XXXTD"
+        },
+        "items": [
+            {
+                "qty": 0,
+                "item": "<item-id>"
+            },
+            {
+                "qty": 0,
+                "item": "<item-id>"
+            }
+        ]
+    }
+]

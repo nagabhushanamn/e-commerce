@@ -1,0 +1,43 @@
+use-cases  : eat-it
+
+    ---------------------------
+    Actor : admin
+    ---------------------------
+        - Create/Edit/Delete new category
+        - Add/Edit/Delete item
+        - download item(s) report as XLS or PDF report
+        
+    ---------------------------
+    Actor : customer
+    ---------------------------
+        - register
+        - login
+
+        - view/search items by category ( 10 items in single page)
+        
+        - view reviews of any item  (10 reviews  at a time )
+        - submit new review
+        - edit/delete review if user owns it
+
+        - Add/Remove item from cart
+
+        - checkout ( by registred user only )
+        - view order(s) 
+        - download order invoice as PDF
+
+        - raise any concern / query for help 
+    ---------------------------------------------------   
+    
+          
+
+
+
+
+
+
+
+
+
+
+
+
