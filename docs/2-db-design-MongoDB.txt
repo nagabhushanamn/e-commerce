@@ -9,13 +9,13 @@ user
     "email":"",
     "mobile":"",
     "address":{
-        "street:"",
+        "street":"",
         "city":"",
         "country":"",
         "zip":""
     },
-    createdAt:date,
-    lastAccessAt:datetime
+    "createdAt":date,
+    "lastAccessAt":datetime
 }
 
 ---------------------------------------------------------
@@ -41,13 +41,13 @@ item
         {"full":"","thumb":""},
         {"full":"","thumb":""}
     ],
-    ingredients:{
+    "ingredients":{
 
     }
-    hotel: {
+    "hotel": {
 
     }
-    description:"",,
+    "description":"",,
     "tags":[
 
     ]
@@ -59,12 +59,12 @@ review
 ---------------------------------------------------------
 
 {
-    stars:0.0,
-    body:"",
-    createdAt:datetime,
-    modifiedAt: datetime,
-    author:<user-id> 
-    item:<item-id>
+    "stars":0.0,
+    "body":"",
+    "createdAt":datetime,
+    "modifiedAt": datetime,
+    "author":<user-id> 
+    "item":<item-id>
 }
 
 ---------------------------------------------------------
@@ -72,18 +72,18 @@ order
 ---------------------------------------------------------
 
 {
-    amount:0.0,
-    createdAt:datetime,
-    customer:<customer-id>    
-    status:"",
-    shipping:{
+    "amount":0.0,
+    "createdAt":datetime,
+    "customer":<customer-id>    
+    "status":"",
+    "shipping":{
 
     }
-    payment: {
-     method: "visa",
-     transaction_id: "2312213312XXXTD"
+    "payment": {
+     "method": "visa",
+     "transaction_id": "2312213312XXXTD"
    },
-   products:[
+   "products":[
        {qty:0,item:<item-id>}
    ]
 }
