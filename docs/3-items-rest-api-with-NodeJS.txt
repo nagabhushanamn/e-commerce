@@ -1,0 +1,51 @@
+
+
+resource(s)
+--------------
+
+         - category
+         - item
+         - review
+         - ....   
+
+
+REST api
+-------------
+
+step-1 : Resource identification in requests by URIs 
+
+        GET     /categories
+        GET     /items
+        POST    /items
+        PUT     /items/{id}
+        DELETE  /items/{id}
+
+        POST    /items/{id}/reviews
+        GET     /items/{id}/reviews
+
+        DELEET  /items/{id}/reviews/{id}
+
+step-2 : Resource manipulation through representations
+
+        html,xml,json,pdf,xls,graph,image,...
+
+step-3:  Self-descriptive messages ( headers )
+
+        client                                          server                        database
+                    
+        GET /items/{1}/reviews   
+        Accept : application/json                    Content-Type: application/json  
+
+
+
+-------------------------------------------------------------------------------
+
+
+
+teachnology stack
+--------------------
+
+language           : javascript
+runtime            : Node.js
+framework          : Express
+database-driver    : Node.js-MongoDB
