@@ -4,8 +4,11 @@
 UI
 ------------
 
-
     - component(s)        : react.js
     - state-management    : redux.js
 
 
+---------------------------------------
+
+
+> npm i bootstrap font-awsome redux redux-thunk axios
