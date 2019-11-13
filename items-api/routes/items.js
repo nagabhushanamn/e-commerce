@@ -4,6 +4,7 @@ var router = express.Router();
 var mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost/eat_it_db', { useNewUrlParser: true });
 
+
 var itemSchema = new mongoose.Schema({
     "name": String,
     "price": Number,
@@ -19,8 +20,6 @@ var itemSchema = new mongoose.Schema({
 
 var Item = mongoose.model('Item', itemSchema, "items");  // Model
 
-
-
 var reviewSchema = new mongoose.Schema({
     "stars": Number,
     "body": String,
@@ -29,6 +28,7 @@ var reviewSchema = new mongoose.Schema({
 });
 
 var Review = mongoose.model('Review', reviewSchema, "reviews");  // Model
+
 
 
 
