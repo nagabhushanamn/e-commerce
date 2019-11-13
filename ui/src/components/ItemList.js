@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios'
+import Item from './Item';
 
 const ItemList = (props) => {
-    
+
     let [items, setItems] = useState([]);
-    
+
     const getItems = async () => {
         let response = await axios.get("http://localhost:3000/items")
         let items = response.data;
@@ -19,7 +20,7 @@ const ItemList = (props) => {
         return items.map((item, idx) => {
             return (
                 <div key={idx}>
-                    {item.name}
+                    <Item value={item} />
                 </div>
             )
         })
