@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from './components/Navbar';
+import ItemList from './components/ItemList';
 
 function App() {
   return (
@@ -8,22 +9,25 @@ function App() {
       <hr />
       <ul className="nav nav-pills">
         <li className="nav-item">
-          <a className="nav-link" href="#">Home</a>
+          <a className="nav-link" href="/">Home</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">items</a>
+          <a className="nav-link" href="/">items</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">cart</a>
+          <a className="nav-link" href="/">cart</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">orders</a>
+          <a className="nav-link" href="/">orders</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">login</a>
+          <a className="nav-link" href="/">login</a>
         </li>
       </ul>
       <hr />
+
+      <ItemList />
+
     </div>
   );
 }
